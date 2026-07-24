@@ -1,0 +1,32 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+override.tf
+override.tf.json
+
+# AWS
+.aws/
+*.pem
+*.pub
+credentials
+config.json
+
+# Secrets / env
+.env
+.env.*
+*.key
+*secrets*
+!**/secrets-manager/**
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log

@@ -1,0 +1,32 @@
+name: Enforce README in every service folder
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-readmes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify every leaf service folder has a README.md
+        run: |
+          missing=0
+          for dir in */*/ ; do
+            # skip .github and scripts
+            case "$dir" in
+              .github/*|scripts/*) continue ;;
+            esac
+            if [ -d "$dir" ] && [ ! -f "${dir}README.md" ]; then
+              echo "Missing README: $dir"
+              missing=1
+            fi
+          done
+          if [ "$missing" -eq 1 ]; then
+            echo "One or more service folders is missing a README.md"
+            exit 1
+          fi
+          echo "All service folders have README.md ✅"
