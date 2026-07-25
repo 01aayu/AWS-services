@@ -9,6 +9,7 @@ Personal, hands-on documentation of learning AWS services for a DevSecOps career
 
 ## How this repo is organized
 
+```
 aws-services/
 ├── 00-foundations/ IAM, CLI, Billing
 ├── 01-networking/ VPC, ALB/NLB, Route53, SG/NACL
@@ -22,7 +23,7 @@ aws-services/
 ├── 07-governance-advanced/ Organizations/SCP, Well-Architected Framework
 ├── 08-capstone-projects/ 3 end-to-end projects combining everything
 └── scripts/ Helper scripts (e.g. README template generator)
-
+```
 ## Progress Tracker
 
 | Phase | Topic | Status |

@@ -31,11 +31,13 @@ IAM is AWS's identity and permission system — it answers two questions for eve
 
 **PowerUserAccess vs AdministratorAccess (permission boundaries in practice):** `PowerUserAccess` grants access to almost everything except IAM user/group/role management and account settings — a good default for a trusted engineer who shouldn't be able to create new identities or change permissions. Confirmed hands-on: after swapping `aayush-admin` from `AdministratorAccess` to `PowerUserAccess`, `iam:CreateUser` was correctly denied. Recovered IAM management ability by logging in as root and attaching `IAMFullAccess` separately — root remains the only account-recovery lever and should never be disabled, deleted, or used for daily work.
 
+```
 Root (locked away, MFA'd, emergency-only)
 │
 ├── IAM User: aayush-admin ──attached to──> Policy (currently AdministratorAccess)
 │
 └── IAM Role ──assumed by──> EC2 / Lambda / other AWS service (no stored credentials)
+```
 
 ## 3. Hands-on Lab
 ### Console steps
