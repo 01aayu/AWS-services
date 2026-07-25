@@ -3,42 +3,39 @@
 Personal, hands-on documentation of learning AWS services for a DevSecOps career path. Every service has its own folder with a README covering concepts, hands-on labs, IaC, security best practices, and — most importantly — **real errors I hit and how I debugged them**.
 
 **Started:** July 2026
-**Target completion:** ~50 weeks
 **Format:** One service = one folder = one README, following [`_TEMPLATE.md`](_TEMPLATE.md)
 
 ---
 
 ## How this repo is organized
 
-```
 aws-services/
-├── 00-foundations/          IAM, CLI, Billing
-├── 01-networking/           VPC, ALB/NLB, Route53, SG/NACL
-├── 02-compute/              EC2, Lambda, ECS/Fargate, EKS, ECR
-├── 03-storage-db/           S3, EBS/EFS, RDS, DynamoDB
-├── 04-security/             KMS, Secrets Manager, GuardDuty, Security Hub,
-│                             Inspector, WAF/Shield, Macie, Access Analyzer
-├── 05-devsecops-pipeline/   CodePipeline, CodeBuild/Deploy, CloudFormation,
-│                             Terraform, image scanning, IaC/secrets scanning
-├── 06-observability/        CloudWatch, CloudTrail, Config, X-Ray
-├── 07-governance-advanced/  Organizations/SCP, Well-Architected Framework
-├── 08-capstone-projects/    3 end-to-end projects combining everything
-└── scripts/                 Helper scripts (e.g. README template generator)
-```
+├── 00-foundations/ IAM, CLI, Billing
+├── 01-networking/ VPC, ALB/NLB, Route53, SG/NACL
+├── 02-compute/ EC2, Lambda, ECS/Fargate, EKS, ECR
+├── 03-storage-db/ S3, EBS/EFS, RDS, DynamoDB
+├── 04-security/ KMS, Secrets Manager, GuardDuty, Security Hub,
+│ Inspector, WAF/Shield, Macie, Access Analyzer
+├── 05-devsecops-pipeline/ CodePipeline, CodeBuild/Deploy, CloudFormation,
+│ Terraform, image scanning, IaC/secrets scanning
+├── 06-observability/ CloudWatch, CloudTrail, Config, X-Ray
+├── 07-governance-advanced/ Organizations/SCP, Well-Architected Framework
+├── 08-capstone-projects/ 3 end-to-end projects combining everything
+└── scripts/ Helper scripts (e.g. README template generator)
 
 ## Progress Tracker
 
-| Phase | Topic | Status | Target |
-|---|---|---|---|
-| 0 | [Foundations](00-foundations/README.md) | 🔲 Not Started | Week 1–3 |
-| 1 | [Networking](01-networking/README.md) | 🔲 Not Started | Week 4–8 |
-| 2 | [Compute](02-compute/README.md) | 🔲 Not Started | Week 9–14 |
-| 3 | [Storage & Database](03-storage-db/README.md) | 🔲 Not Started | Week 15–18 |
-| 4 | [Security](04-security/README.md) | 🔲 Not Started | Week 19–26 |
-| 5 | [CI/CD & IaC](05-devsecops-pipeline/README.md) | 🔲 Not Started | Week 27–34 |
-| 6 | [Observability & Governance](06-observability/README.md) | 🔲 Not Started | Week 35–40 |
-| 7 | [Governance & Advanced](07-governance-advanced/README.md) | 🔲 Not Started | Week 41–46 |
-| 8 | [Capstone Projects](08-capstone-projects/README.md) | 🔲 Not Started | Week 47–50 |
+| Phase | Topic | Status |
+|---|---|---|
+| 0 | [Foundations](00-foundations/README.md) | 🟡 In Progress |
+| 1 | [Networking](01-networking/README.md) | 🔲 Not Started |
+| 2 | [Compute](02-compute/README.md) | 🔲 Not Started |
+| 3 | [Storage & Database](03-storage-db/README.md) | 🔲 Not Started |
+| 4 | [Security](04-security/README.md) | 🔲 Not Started |
+| 5 | [CI/CD & IaC](05-devsecops-pipeline/README.md) | 🔲 Not Started |
+| 6 | [Observability & Governance](06-observability/README.md) | 🔲 Not Started |
+| 7 | [Governance & Advanced](07-governance-advanced/README.md) | 🔲 Not Started |
+| 8 | [Capstone Projects](08-capstone-projects/README.md) | 🔲 Not Started |
 
 Update the emoji as you go: 🔲 Not Started → 🟡 In Progress → ✅ Completed. Also update the `Status` field inside each individual service README.
 

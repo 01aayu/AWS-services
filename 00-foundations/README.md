@@ -4,7 +4,7 @@ Everything downstream depends on IAM and basic tooling. Do not rush this phase.
 
 ## Services in this phase
 
-- [ ] [IAM](iam/README.md)
+- [x] [IAM](iam/README.md)
 - [ ] [AWS CLI & CloudShell](aws-cli-cloudshell/README.md)
 - [ ] [Billing, Budgets & Org](billing-org/README.md)
 
