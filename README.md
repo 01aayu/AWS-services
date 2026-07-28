@@ -2,7 +2,6 @@
 
 Personal, hands-on documentation of learning AWS services for a DevSecOps career path. Every service has its own folder with a README covering concepts, hands-on labs, IaC, security best practices, and — most importantly — **real errors I hit and how I debugged them**.
 
-**Started:** July 2026
 **Format:** One service = one folder = one README, following [`_TEMPLATE.md`](_TEMPLATE.md)
 
 ---
@@ -23,13 +22,15 @@ aws-services/
 ├── 07-governance-advanced/ Organizations/SCP, Well-Architected Framework
 ├── 08-capstone-projects/ 3 end-to-end projects combining everything
 └── scripts/ Helper scripts (e.g. README template generator)
+
 ```
+
 ## Progress Tracker
 
 | Phase | Topic | Status |
 |---|---|---|
-| 0 | [Foundations](00-foundations/README.md) | 🟡 In Progress |
-| 1 | [Networking](01-networking/README.md) | 🔲 Not Started |
+| 0 | [Foundations](00-foundations/README.md) | ✅ Completed |
+| 1 | [Networking](01-networking/README.md) | 🟡 In Progress |
 | 2 | [Compute](02-compute/README.md) | 🔲 Not Started |
 | 3 | [Storage & Database](03-storage-db/README.md) | 🔲 Not Started |
 | 4 | [Security](04-security/README.md) | 🔲 Not Started |
@@ -52,7 +53,3 @@ Update the emoji as you go: 🔲 Not Started → 🟡 In Progress → ✅ Comple
 ## Why this repo exists
 
 Not just a study log — this is meant to double as a portfolio artifact for DevSecOps roles. It should show: breadth across AWS services, depth on security-specific services, comfort with IaC and CI/CD, and — critically — the ability to debug real failures, not just follow tutorials.
-
----
-
-*Last updated: July 2026*

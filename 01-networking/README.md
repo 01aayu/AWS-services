@@ -4,7 +4,7 @@ VPC is the backbone of almost every AWS architecture. Understand subnetting, rou
 
 ## Services in this phase
 
-- [ ] [VPC](vpc/README.md)
+- [x] [VPC](vpc/README.md)
 - [ ] [ALB / NLB](alb-nlb/README.md)
 - [ ] [Route 53](route53/README.md)
 - [ ] [Security Groups & NACLs](security-groups-nacls/README.md)
