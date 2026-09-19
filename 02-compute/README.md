@@ -4,7 +4,7 @@ Covers VM-based, serverless, and container-based compute — the three major par
 
 ## Services in this phase
 
-- [ ] [EC2](ec2/README.md)
+- [x] [EC2](ec2/README.md)
 - [ ] [Lambda](lambda/README.md)
 - [ ] [ECS & Fargate](ecs-fargate/README.md)
 - [ ] [EKS](eks/README.md)
