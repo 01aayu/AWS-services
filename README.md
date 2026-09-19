@@ -31,7 +31,7 @@ aws-services/
 |---|---|---|
 | 0 | [Foundations](00-foundations/README.md) | ✅ Completed |
 | 1 | [Networking](01-networking/README.md) | 🟡 In Progress |
-| 2 | [Compute](02-compute/README.md) | 🔲 Not Started |
+| 2 | [Compute](02-compute/README.md) | 🟡 In Progress |
 | 3 | [Storage & Database](03-storage-db/README.md) | 🔲 Not Started |
 | 4 | [Security](04-security/README.md) | 🔲 Not Started |
 | 5 | [CI/CD & IaC](05-devsecops-pipeline/README.md) | 🔲 Not Started |
